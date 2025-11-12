@@ -79,14 +79,14 @@ void loop() {
 > #### 3. Connect the LED (Output Indicator)
 > - Place the LED on the breadboard.  
 > - Connect the **short leg (cathode)** to **GND** on Arduino.  
-> - Connect the **long leg (anode)** to **digital pin 13** through a **220Ω resistor**.
+> - Connect the **long leg (anode)** to **digital pin 12** through a **220Ω resistor**.
 #### Write the Arduino Code
 Click on **“Code” → “Text”** mode and enter the following code:
 
 ```
 int trigPin = 9; // trig pin of ultrasonic sensor
 int echoPin = 10; // echo pin of ultrasonic sensor
-int ledPin = 13; // LED pin
+int ledPin = 12; // LED pin
 long duration; // variable to store time duration of ultrasonic wave to transmit and receive sound
 int distance; // variable to store the distance after calculation
 
